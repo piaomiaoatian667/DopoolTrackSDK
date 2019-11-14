@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DopoolTrackSDK'
   s.version          = '1.0.2'
-  s.summary          = 'DopoolTrackSDK.'
+  s.summary          = 'DopoolTrackSDK'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'DopoolTrackSDK for CBC_HOT CBC_ZC'
+  s.description      = <<-DESC
+    DopoolTrackSDK for CBC_HOT CBC_ZC
+                         DESC
 
   s.homepage         = 'https://github.com/piaomiaoatian667/DopoolTrackSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -29,7 +31,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.3'
 
   s.source_files = 'DopoolTrackSDK/Classes/**/*'
-  
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
+  s.library = 'c++'
+   
   # s.resource_bundles = {
   #   'DopoolTrackSDK' => ['DopoolTrackSDK/Assets/*.png']
   # }
