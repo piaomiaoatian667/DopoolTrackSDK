@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = DopoolTrackSDK for CBC_HOT CBC_ZC
+  s.description      = 'DopoolTrackSDK for CBC_HOT CBC_ZC'
 
   s.homepage         = 'https://github.com/piaomiaoatian667/DopoolTrackSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
