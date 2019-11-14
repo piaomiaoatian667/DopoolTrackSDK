@@ -1,0 +1,16 @@
+PODS:
+  - DopoolTrackSDK (0.1.0)
+
+DEPENDENCIES:
+  - DopoolTrackSDK (from `../`)
+
+EXTERNAL SOURCES:
+  DopoolTrackSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DopoolTrackSDK: 5b2e23e32ba96ac14c1edf1e65e132f09545b388
+
+PODFILE CHECKSUM: 14f0b62252367d5ceca7981154220c1f944f2f44
+
+COCOAPODS: 1.8.4
