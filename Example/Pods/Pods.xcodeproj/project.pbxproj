@@ -7,44 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09E8DF752EA009C7902D5EB01E2B97D3 /* UIDevice+DopIdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BABF294B6CB72F625CB6D3B5C9EA7B /* UIDevice+DopIdentifierAddition.m */; };
-		10831C2683B48EE0AF554D3D27B0CD64 /* DopGlobalDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BABC75C9812EB38F1BEC53C1047F2D /* DopGlobalDefinition.m */; };
 		14B9A54F8BFC0AB51B5E9ACD18CDD719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		14F53E8C3348AA642A7309748D8A2A83 /* DopTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EEF620AF26BF1CD450B9257661E95F /* DopTrack.m */; };
-		220FBE5E8191D2A52EC5136BB301F5CA /* NSString+DopMD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9031F04D26EEAE6104BB50CD581495 /* NSString+DopMD5Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2EC0F4D9F4C4566E17750E5B7A041007 /* Pods-DopoolTrackSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A393EDDF4B90FDD8F033F9DC497D10D4 /* Pods-DopoolTrackSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		391693CA75B2597167C8FF0807601102 /* DopUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC0CA8069CE5D842CFEF7DA3BA0766B /* DopUDID.m */; };
-		3B319CE3F387E03AB437F9BF720A2473 /* NSDate+DopBJZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910C138E0D28DF54646CA8F34D52241 /* NSDate+DopBJZone.m */; };
-		481831694478D02422462325633DE820 /* DopBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 89299691767865CD304CA1B88C7C2FC1 /* DopBase64.m */; };
-		4C700AE19925141EBCAFF1BC0B34065F /* DopTrackConst.h in Headers */ = {isa = PBXBuildFile; fileRef = DEA880AB129852F1FC6832DC7B4C86FB /* DopTrackConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F98D1B4F4101CE3290AD64EC90F0F80 /* NSData+DopGZipAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EC34CC806B86CAF739DF319EB9419CFA /* NSData+DopGZipAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55CA784246C51FDB0A2A0B41D4A40DBD /* DopBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = B8E3C6E1D394C746C07C383F1E101815 /* DopBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64472E0DA357FCC685E6E1708E0C3FA6 /* UIDevice+DopIdentifierAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C55F22F698808AF70B6FB008F0AD9A /* UIDevice+DopIdentifierAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65903B5E05B74ADE58FC54F1D6446461 /* NSString+DopNull.h in Headers */ = {isa = PBXBuildFile; fileRef = 5658458519E81964389350AAFDDBDB31 /* NSString+DopNull.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C3F8AED43EA867E77BA439F8BF430E6 /* DopoolTrackSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BE6459A06E63C98A2C287B937AFDFAF /* DopoolTrackSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5447A67687DBC448435BC8A0685560AB /* DopTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = D5DBD2594FA877351045950F4FFEBAAA /* DopTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		645AF90CCF130252604A300D37571959 /* libTarck_SDK.a in Sources */ = {isa = PBXBuildFile; fileRef = AE3C23A90A1225016C5A2825A0DC76B6 /* libTarck_SDK.a */; };
+		7DE0C10499589F45E13F1831A139B043 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		80ADA8A946B22E3A0E7F2EE91EEC5B58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		84E328F1EC8FC74560F861518890B80D /* DopGlobalDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B78CA50D6F95CA5025C8EF738D7FA28 /* DopGlobalDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91DB4BF84FD9B0C1804CEA98B6071036 /* NSString+DopMD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5062779E84B042D8327933CF3D162ED /* NSString+DopMD5Addition.m */; };
-		9978F3C6734F84610B0A81167330B02D /* DopUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D290B4F7E02366D007DF36DD362228D /* DopUDID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A8188142091E8B13DF3B75C8CF4C02E /* Pods-DopoolTrackSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACA3644E9CB020E16C1BDEA2657495E /* Pods-DopoolTrackSDK_Example-dummy.m */; };
-		A9B5392DEBF0D67F04ECC028254F2BBD /* DopoolReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 232B3E7288BBFB62A6835014CEE65022 /* DopoolReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFA1E5DB33582339F02D0EBBE89413CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B6650BF364A23BC3AD90BA74C987735B /* DopCheckUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CB1C94BC87D6A3ED33440726FBCD4B /* DopCheckUDID.m */; };
-		C47BE174086064684CD249A6C58D4F43 /* NSString+DopNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CA2A0F92452BE6E55714A20078B463 /* NSString+DopNull.m */; };
-		CA37298A8F31F4E60536793BDA7A723C /* NSString+DopEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 733CD0DEB30A5B8894F84314F876CDD5 /* NSString+DopEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEE7DE4B6B2D90E70FB6F8B3233A515D /* DopCheckUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = C6397D815733E459558E096866A92FD9 /* DopCheckUDID.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF1485657614D7AD6B182D6FB8C9A966 /* NSData+DopGZipAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FFDC062912EF2B0203DABB015F097E /* NSData+DopGZipAdditions.m */; };
-		CFD2838807D6B62CD967648985CAA306 /* DopoolTrackSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9483FB87765BC5DD2E5AA7C42E625D8 /* DopoolTrackSDK-dummy.m */; };
+		B11352B9B4361462319FB246622AFE7C /* DopoolTrackSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F51F8EAECDE293D905C597AEAA0C0A9E /* DopoolTrackSDK-dummy.m */; };
 		D0B7AC19FBABD8C1F5ACB022E83041AA /* Pods-DopoolTrackSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA8DFE4C2AD609520AA23D1396BBB63 /* Pods-DopoolTrackSDK_Tests-dummy.m */; };
-		D7195EFFCE71F6AE582FEDBE02D52BE4 /* DopTrackLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 9918FBAE3B3DD8DF182E51B8A1ACA8FB /* DopTrackLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9133F17005A978303D2BC0611EE3204 /* DopTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE8DF141D3093590F28C42BA967347A /* DopTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDB109BB3E5E116600C8143F92C9BA6A /* Pods-DopoolTrackSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41FFA661D95AE9B81B4E7B3AA556BE4D /* Pods-DopoolTrackSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1B58E04EF269522C91A247929B52F3F /* Dop_Device_Checker.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB4CE30F79F06155A0544947070E305 /* Dop_Device_Checker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E60EBDC98D369CDCF4AC4100037D5665 /* DopoolReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B895FE65090FFDCE6CF466B0A525AF86 /* DopoolReachability.m */; };
-		EF3C3ED5D6DCDB844711C02779588EC8 /* Dop_Device_Checker.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6F4E0A8A340C312F12BD4D5C117BC4 /* Dop_Device_Checker.m */; };
-		F19F7765562AD3CFA5B8E1518F16DC47 /* DopTrackLib.m in Sources */ = {isa = PBXBuildFile; fileRef = B54AE4BA19633CC086CBDD7E4CD0FDE4 /* DopTrackLib.m */; };
-		F628F4C92F5FCEF5CED348F8EFED0A9C /* NSDate+DopBJZone.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C9A0C7608E82ABE520FB4742A9AB7D /* NSDate+DopBJZone.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF7606A1F0DE599FB5D1419A3B225E61 /* NSString+DopEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB54AB34D33156CA63C2B8FC0FF92D1 /* NSString+DopEncoding.m */; };
+		FA1432E3F4C4CA8E2581955B3FFAA6E4 /* DopoolTrackSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 445E8B7C9ADA63A3C284763BF85C6465 /* DopoolTrackSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,82 +38,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02C95A33ECF630A75CE2C342DA133291 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		0DFE3B34E62E69740C1BFFC5E433F2D9 /* DopoolTrackSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DopoolTrackSDK.xcconfig; sourceTree = "<group>"; };
-		119222BC36959657EAFBA818E331A631 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1DC0CA8069CE5D842CFEF7DA3BA0766B /* DopUDID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DopUDID.m; path = DopoolTrackSDK/Classes/DopUDID.m; sourceTree = "<group>"; };
-		232B3E7288BBFB62A6835014CEE65022 /* DopoolReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DopoolReachability.h; path = DopoolTrackSDK/Classes/DopoolReachability.h; sourceTree = "<group>"; };
-		2AF5CB1F1129CD14256446DAE62814DC /* DopoolTrackSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DopoolTrackSDK-Info.plist"; sourceTree = "<group>"; };
-		2DB54AB34D33156CA63C2B8FC0FF92D1 /* NSString+DopEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DopEncoding.m"; path = "DopoolTrackSDK/Classes/NSString+DopEncoding.m"; sourceTree = "<group>"; };
+		0EE51619093A58C919781BCC572768F1 /* DopoolTrackSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DopoolTrackSDK.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34ABAC853B58DAACF29CA085C272704A /* Pods-DopoolTrackSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DopoolTrackSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		3B78CA50D6F95CA5025C8EF738D7FA28 /* DopGlobalDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DopGlobalDefinition.h; path = DopoolTrackSDK/Classes/DopGlobalDefinition.h; sourceTree = "<group>"; };
+		3C084D0CF858BE50BF000112B3F0F3A0 /* DopoolTrackSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DopoolTrackSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3DA8DFE4C2AD609520AA23D1396BBB63 /* Pods-DopoolTrackSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DopoolTrackSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		3DE8DF141D3093590F28C42BA967347A /* DopTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DopTrack.h; path = DopoolTrackSDK/Classes/DopTrack.h; sourceTree = "<group>"; };
 		41FFA661D95AE9B81B4E7B3AA556BE4D /* Pods-DopoolTrackSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DopoolTrackSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		44F03FEAF9A88B7D36FEF7262610A61D /* DopoolTrackSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DopoolTrackSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		445E8B7C9ADA63A3C284763BF85C6465 /* DopoolTrackSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DopoolTrackSDK-umbrella.h"; sourceTree = "<group>"; };
 		49A0A2DB5DB7EAF827D96BF96D6B7039 /* Pods-DopoolTrackSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DopoolTrackSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4A655A31FB06C8488B87BF54543D82AC /* Pods-DopoolTrackSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DopoolTrackSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4B7983C2D76BD33A597844C998EB4094 /* Pods-DopoolTrackSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DopoolTrackSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4EC75F34255148E568C0E5B14FE7398B /* Pods_DopoolTrackSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DopoolTrackSDK_Tests.framework; path = "Pods-DopoolTrackSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B0236F8248D94CD7E327B640BDFEEB /* Pods-DopoolTrackSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DopoolTrackSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		54C55F22F698808AF70B6FB008F0AD9A /* UIDevice+DopIdentifierAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+DopIdentifierAddition.h"; path = "DopoolTrackSDK/Classes/UIDevice+DopIdentifierAddition.h"; sourceTree = "<group>"; };
-		5658458519E81964389350AAFDDBDB31 /* NSString+DopNull.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DopNull.h"; path = "DopoolTrackSDK/Classes/NSString+DopNull.h"; sourceTree = "<group>"; };
-		59FFDC062912EF2B0203DABB015F097E /* NSData+DopGZipAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+DopGZipAdditions.m"; path = "DopoolTrackSDK/Classes/NSData+DopGZipAdditions.m"; sourceTree = "<group>"; };
 		6066D3E62CA692A0F5864ABF62A2C6AB /* DopoolTrackSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DopoolTrackSDK.framework; path = DopoolTrackSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		65CA2A0F92452BE6E55714A20078B463 /* NSString+DopNull.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DopNull.m"; path = "DopoolTrackSDK/Classes/NSString+DopNull.m"; sourceTree = "<group>"; };
-		6BE6459A06E63C98A2C287B937AFDFAF /* DopoolTrackSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DopoolTrackSDK-umbrella.h"; sourceTree = "<group>"; };
-		733CD0DEB30A5B8894F84314F876CDD5 /* NSString+DopEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DopEncoding.h"; path = "DopoolTrackSDK/Classes/NSString+DopEncoding.h"; sourceTree = "<group>"; };
-		73EEF620AF26BF1CD450B9257661E95F /* DopTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DopTrack.m; path = DopoolTrackSDK/Classes/DopTrack.m; sourceTree = "<group>"; };
-		77BABC75C9812EB38F1BEC53C1047F2D /* DopGlobalDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DopGlobalDefinition.m; path = DopoolTrackSDK/Classes/DopGlobalDefinition.m; sourceTree = "<group>"; };
-		7910C138E0D28DF54646CA8F34D52241 /* NSDate+DopBJZone.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+DopBJZone.m"; path = "DopoolTrackSDK/Classes/NSDate+DopBJZone.m"; sourceTree = "<group>"; };
-		89299691767865CD304CA1B88C7C2FC1 /* DopBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DopBase64.m; path = DopoolTrackSDK/Classes/DopBase64.m; sourceTree = "<group>"; };
+		661A9F32BB37120A40DB3B80D2ECF832 /* DopoolTrackSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DopoolTrackSDK-prefix.pch"; sourceTree = "<group>"; };
+		730EB01AC71B3867A00E21BD19792522 /* DopoolTrackSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DopoolTrackSDK.modulemap; sourceTree = "<group>"; };
 		8ACA3644E9CB020E16C1BDEA2657495E /* Pods-DopoolTrackSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DopoolTrackSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		8C9031F04D26EEAE6104BB50CD581495 /* NSString+DopMD5Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DopMD5Addition.h"; path = "DopoolTrackSDK/Classes/NSString+DopMD5Addition.h"; sourceTree = "<group>"; };
 		8F5D37E028ADDB64E68A5E55E84676E0 /* Pods-DopoolTrackSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DopoolTrackSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		91C9A0C7608E82ABE520FB4742A9AB7D /* NSDate+DopBJZone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+DopBJZone.h"; path = "DopoolTrackSDK/Classes/NSDate+DopBJZone.h"; sourceTree = "<group>"; };
-		96BABF294B6CB72F625CB6D3B5C9EA7B /* UIDevice+DopIdentifierAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+DopIdentifierAddition.m"; path = "DopoolTrackSDK/Classes/UIDevice+DopIdentifierAddition.m"; sourceTree = "<group>"; };
-		9918FBAE3B3DD8DF182E51B8A1ACA8FB /* DopTrackLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DopTrackLib.h; path = DopoolTrackSDK/Classes/DopTrackLib.h; sourceTree = "<group>"; };
-		9D290B4F7E02366D007DF36DD362228D /* DopUDID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DopUDID.h; path = DopoolTrackSDK/Classes/DopUDID.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DCDADD210E2B83F7684C35F6867F158 /* Pods-DopoolTrackSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DopoolTrackSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A393EDDF4B90FDD8F033F9DC497D10D4 /* Pods-DopoolTrackSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DopoolTrackSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AD6F4E0A8A340C312F12BD4D5C117BC4 /* Dop_Device_Checker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Dop_Device_Checker.m; path = DopoolTrackSDK/Classes/Dop_Device_Checker.m; sourceTree = "<group>"; };
+		AE3C23A90A1225016C5A2825A0DC76B6 /* libTarck_SDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTarck_SDK.a; path = DopoolTrackSDK/Classes/libTarck_SDK.a; sourceTree = "<group>"; };
 		B2980400ED8A5FB52429E01588BDD121 /* Pods-DopoolTrackSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DopoolTrackSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B4CB1C94BC87D6A3ED33440726FBCD4B /* DopCheckUDID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DopCheckUDID.m; path = DopoolTrackSDK/Classes/DopCheckUDID.m; sourceTree = "<group>"; };
-		B54AE4BA19633CC086CBDD7E4CD0FDE4 /* DopTrackLib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DopTrackLib.m; path = DopoolTrackSDK/Classes/DopTrackLib.m; sourceTree = "<group>"; };
-		B895FE65090FFDCE6CF466B0A525AF86 /* DopoolReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DopoolReachability.m; path = DopoolTrackSDK/Classes/DopoolReachability.m; sourceTree = "<group>"; };
-		B8E3C6E1D394C746C07C383F1E101815 /* DopBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DopBase64.h; path = DopoolTrackSDK/Classes/DopBase64.h; sourceTree = "<group>"; };
-		C5062779E84B042D8327933CF3D162ED /* NSString+DopMD5Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DopMD5Addition.m"; path = "DopoolTrackSDK/Classes/NSString+DopMD5Addition.m"; sourceTree = "<group>"; };
-		C6397D815733E459558E096866A92FD9 /* DopCheckUDID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DopCheckUDID.h; path = DopoolTrackSDK/Classes/DopCheckUDID.h; sourceTree = "<group>"; };
-		D00DEB3DA86CCF60FC622F0EF25F38EB /* DopoolTrackSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DopoolTrackSDK.modulemap; sourceTree = "<group>"; };
+		BC88289C4EC0F5B6E76E53B1C0C962E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D10078800E58BBDCC0E307F1FDA39512 /* Pods-DopoolTrackSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DopoolTrackSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D9483FB87765BC5DD2E5AA7C42E625D8 /* DopoolTrackSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DopoolTrackSDK-dummy.m"; sourceTree = "<group>"; };
+		D5DBD2594FA877351045950F4FFEBAAA /* DopTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DopTrack.h; path = DopoolTrackSDK/Classes/DopTrack.h; sourceTree = "<group>"; };
 		DD34A65ED801AACA4200957965FDD4DC /* Pods-DopoolTrackSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DopoolTrackSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		DEA880AB129852F1FC6832DC7B4C86FB /* DopTrackConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DopTrackConst.h; path = DopoolTrackSDK/Classes/DopTrackConst.h; sourceTree = "<group>"; };
-		E12A3345DA9A044915DFFBBA38744171 /* DopoolTrackSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DopoolTrackSDK-prefix.pch"; sourceTree = "<group>"; };
 		E1B803FBBC72F888B7B4B3817F4DA7A4 /* Pods-DopoolTrackSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DopoolTrackSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E40589459AD511ECF11DDF12DD7CAE11 /* Pods-DopoolTrackSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DopoolTrackSDK_Example.modulemap"; sourceTree = "<group>"; };
-		EC34CC806B86CAF739DF319EB9419CFA /* NSData+DopGZipAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+DopGZipAdditions.h"; path = "DopoolTrackSDK/Classes/NSData+DopGZipAdditions.h"; sourceTree = "<group>"; };
+		E9945572D341A4CB74AD2842D565AA9D /* DopoolTrackSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DopoolTrackSDK-Info.plist"; sourceTree = "<group>"; };
 		EEA4633AA896CA267AFE3C60793C1AD3 /* Pods-DopoolTrackSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DopoolTrackSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		FAB4CE30F79F06155A0544947070E305 /* Dop_Device_Checker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Dop_Device_Checker.h; path = DopoolTrackSDK/Classes/Dop_Device_Checker.h; sourceTree = "<group>"; };
+		F51F8EAECDE293D905C597AEAA0C0A9E /* DopoolTrackSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DopoolTrackSDK-dummy.m"; sourceTree = "<group>"; };
+		FAB9013A4477AFCFC25163AE0CF39282 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FCBBFA92DC7F8C4BF6F8FC3E28453DF3 /* Pods_DopoolTrackSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DopoolTrackSDK_Example.framework; path = "Pods-DopoolTrackSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1E535A16D8463042F01BD1A4D9D4A9CE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AFA1E5DB33582339F02D0EBBE89413CB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2DE9A317399CCD4370DBC71160DAE36E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				14B9A54F8BFC0AB51B5E9ACD18CDD719 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53A5AF84DB009481D9D42CF2048CBD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE0C10499589F45E13F1831A139B043 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,65 +118,16 @@
 			path = "Target Support Files/Pods-DopoolTrackSDK_Example";
 			sourceTree = "<group>";
 		};
-		21758A90E6A24100A05F9D2D2E305A15 /* Support Files */ = {
+		2C97ED90B2B9B1ACF9F92935C660706C /* DopoolTrackSDK */ = {
 			isa = PBXGroup;
 			children = (
-				D00DEB3DA86CCF60FC622F0EF25F38EB /* DopoolTrackSDK.modulemap */,
-				0DFE3B34E62E69740C1BFFC5E433F2D9 /* DopoolTrackSDK.xcconfig */,
-				D9483FB87765BC5DD2E5AA7C42E625D8 /* DopoolTrackSDK-dummy.m */,
-				2AF5CB1F1129CD14256446DAE62814DC /* DopoolTrackSDK-Info.plist */,
-				E12A3345DA9A044915DFFBBA38744171 /* DopoolTrackSDK-prefix.pch */,
-				6BE6459A06E63C98A2C287B937AFDFAF /* DopoolTrackSDK-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DopoolTrackSDK";
-			sourceTree = "<group>";
-		};
-		277F3E9C321C7958258412298D60DC08 /* DopoolTrackSDK */ = {
-			isa = PBXGroup;
-			children = (
-				FAB4CE30F79F06155A0544947070E305 /* Dop_Device_Checker.h */,
-				AD6F4E0A8A340C312F12BD4D5C117BC4 /* Dop_Device_Checker.m */,
-				B8E3C6E1D394C746C07C383F1E101815 /* DopBase64.h */,
-				89299691767865CD304CA1B88C7C2FC1 /* DopBase64.m */,
-				C6397D815733E459558E096866A92FD9 /* DopCheckUDID.h */,
-				B4CB1C94BC87D6A3ED33440726FBCD4B /* DopCheckUDID.m */,
-				3B78CA50D6F95CA5025C8EF738D7FA28 /* DopGlobalDefinition.h */,
-				77BABC75C9812EB38F1BEC53C1047F2D /* DopGlobalDefinition.m */,
-				232B3E7288BBFB62A6835014CEE65022 /* DopoolReachability.h */,
-				B895FE65090FFDCE6CF466B0A525AF86 /* DopoolReachability.m */,
-				3DE8DF141D3093590F28C42BA967347A /* DopTrack.h */,
-				73EEF620AF26BF1CD450B9257661E95F /* DopTrack.m */,
-				DEA880AB129852F1FC6832DC7B4C86FB /* DopTrackConst.h */,
-				9918FBAE3B3DD8DF182E51B8A1ACA8FB /* DopTrackLib.h */,
-				B54AE4BA19633CC086CBDD7E4CD0FDE4 /* DopTrackLib.m */,
-				9D290B4F7E02366D007DF36DD362228D /* DopUDID.h */,
-				1DC0CA8069CE5D842CFEF7DA3BA0766B /* DopUDID.m */,
-				EC34CC806B86CAF739DF319EB9419CFA /* NSData+DopGZipAdditions.h */,
-				59FFDC062912EF2B0203DABB015F097E /* NSData+DopGZipAdditions.m */,
-				91C9A0C7608E82ABE520FB4742A9AB7D /* NSDate+DopBJZone.h */,
-				7910C138E0D28DF54646CA8F34D52241 /* NSDate+DopBJZone.m */,
-				733CD0DEB30A5B8894F84314F876CDD5 /* NSString+DopEncoding.h */,
-				2DB54AB34D33156CA63C2B8FC0FF92D1 /* NSString+DopEncoding.m */,
-				8C9031F04D26EEAE6104BB50CD581495 /* NSString+DopMD5Addition.h */,
-				C5062779E84B042D8327933CF3D162ED /* NSString+DopMD5Addition.m */,
-				5658458519E81964389350AAFDDBDB31 /* NSString+DopNull.h */,
-				65CA2A0F92452BE6E55714A20078B463 /* NSString+DopNull.m */,
-				54C55F22F698808AF70B6FB008F0AD9A /* UIDevice+DopIdentifierAddition.h */,
-				96BABF294B6CB72F625CB6D3B5C9EA7B /* UIDevice+DopIdentifierAddition.m */,
-				429D8790DB24D52EA2C0F618FD72EA91 /* Pod */,
-				21758A90E6A24100A05F9D2D2E305A15 /* Support Files */,
+				D5DBD2594FA877351045950F4FFEBAAA /* DopTrack.h */,
+				AE3C23A90A1225016C5A2825A0DC76B6 /* libTarck_SDK.a */,
+				D544698BD9F44ADDFA72F1D34B860140 /* Pod */,
+				4C521C6E4EF6EDB421CD6147062FBE87 /* Support Files */,
 			);
 			name = DopoolTrackSDK;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		27A3164B803E5C400C794A08310CA255 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				277F3E9C321C7958258412298D60DC08 /* DopoolTrackSDK */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		2F7D5FE0227F55F572873C0074503160 /* Targets Support Files */ = {
@@ -242,14 +139,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		429D8790DB24D52EA2C0F618FD72EA91 /* Pod */ = {
+		4C521C6E4EF6EDB421CD6147062FBE87 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				44F03FEAF9A88B7D36FEF7262610A61D /* DopoolTrackSDK.podspec */,
-				02C95A33ECF630A75CE2C342DA133291 /* LICENSE */,
-				119222BC36959657EAFBA818E331A631 /* README.md */,
+				730EB01AC71B3867A00E21BD19792522 /* DopoolTrackSDK.modulemap */,
+				0EE51619093A58C919781BCC572768F1 /* DopoolTrackSDK.xcconfig */,
+				F51F8EAECDE293D905C597AEAA0C0A9E /* DopoolTrackSDK-dummy.m */,
+				E9945572D341A4CB74AD2842D565AA9D /* DopoolTrackSDK-Info.plist */,
+				661A9F32BB37120A40DB3B80D2ECF832 /* DopoolTrackSDK-prefix.pch */,
+				445E8B7C9ADA63A3C284763BF85C6465 /* DopoolTrackSDK-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DopoolTrackSDK";
 			sourceTree = "<group>";
 		};
 		700D7754C9DDD4D5EDE15F8BF44697A7 /* Pods-DopoolTrackSDK_Tests */ = {
@@ -278,6 +179,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A96845C8C7ACEC77F55DC8EA7890064D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C97ED90B2B9B1ACF9F92935C660706C /* DopoolTrackSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,7 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				27A3164B803E5C400C794A08310CA255 /* Development Pods */,
+				A96845C8C7ACEC77F55DC8EA7890064D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				9A1BFFD582CB53A52A4FFA21D9127BF6 /* Products */,
 				2F7D5FE0227F55F572873C0074503160 /* Targets Support Files */,
@@ -303,6 +212,16 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D544698BD9F44ADDFA72F1D34B860140 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3C084D0CF858BE50BF000112B3F0F3A0 /* DopoolTrackSDK.podspec */,
+				BC88289C4EC0F5B6E76E53B1C0C962E5 /* LICENSE */,
+				FAB9013A4477AFCFC25163AE0CF39282 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,26 +243,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA25A9B7AD985B3AA05477594395A455 /* Headers */ = {
+		C9C10AA328D79F28AA15564A5F5E3259 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1B58E04EF269522C91A247929B52F3F /* Dop_Device_Checker.h in Headers */,
-				55CA784246C51FDB0A2A0B41D4A40DBD /* DopBase64.h in Headers */,
-				CEE7DE4B6B2D90E70FB6F8B3233A515D /* DopCheckUDID.h in Headers */,
-				84E328F1EC8FC74560F861518890B80D /* DopGlobalDefinition.h in Headers */,
-				A9B5392DEBF0D67F04ECC028254F2BBD /* DopoolReachability.h in Headers */,
-				7C3F8AED43EA867E77BA439F8BF430E6 /* DopoolTrackSDK-umbrella.h in Headers */,
-				D9133F17005A978303D2BC0611EE3204 /* DopTrack.h in Headers */,
-				4C700AE19925141EBCAFF1BC0B34065F /* DopTrackConst.h in Headers */,
-				D7195EFFCE71F6AE582FEDBE02D52BE4 /* DopTrackLib.h in Headers */,
-				9978F3C6734F84610B0A81167330B02D /* DopUDID.h in Headers */,
-				4F98D1B4F4101CE3290AD64EC90F0F80 /* NSData+DopGZipAdditions.h in Headers */,
-				F628F4C92F5FCEF5CED348F8EFED0A9C /* NSDate+DopBJZone.h in Headers */,
-				CA37298A8F31F4E60536793BDA7A723C /* NSString+DopEncoding.h in Headers */,
-				220FBE5E8191D2A52EC5136BB301F5CA /* NSString+DopMD5Addition.h in Headers */,
-				65903B5E05B74ADE58FC54F1D6446461 /* NSString+DopNull.h in Headers */,
-				64472E0DA357FCC685E6E1708E0C3FA6 /* UIDevice+DopIdentifierAddition.h in Headers */,
+				FA1432E3F4C4CA8E2581955B3FFAA6E4 /* DopoolTrackSDK-umbrella.h in Headers */,
+				5447A67687DBC448435BC8A0685560AB /* DopTrack.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,12 +276,12 @@
 		};
 		37EF22D943F4E9D9C7D62D6C82082CD1 /* DopoolTrackSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 057836BEF7D4D936773AD60AA7A684EE /* Build configuration list for PBXNativeTarget "DopoolTrackSDK" */;
+			buildConfigurationList = 720A8ABC17B769787DC44788ED3C403B /* Build configuration list for PBXNativeTarget "DopoolTrackSDK" */;
 			buildPhases = (
-				DA25A9B7AD985B3AA05477594395A455 /* Headers */,
-				0EDF490B42EA27AC022FEC1E2A7B1C99 /* Sources */,
-				1E535A16D8463042F01BD1A4D9D4A9CE /* Frameworks */,
-				B2516A5EC8C2484D77D595D859452958 /* Resources */,
+				C9C10AA328D79F28AA15564A5F5E3259 /* Headers */,
+				F18DC6001D6CD2340694BA4D4DDDDA15 /* Sources */,
+				53A5AF84DB009481D9D42CF2048CBD87 /* Frameworks */,
+				56BEDB575F10C8728160FC5F7485B2B6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -436,14 +341,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5B06CBDC128FA461C1670800CA48A898 /* Resources */ = {
+		56BEDB575F10C8728160FC5F7485B2B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2516A5EC8C2484D77D595D859452958 /* Resources */ = {
+		5B06CBDC128FA461C1670800CA48A898 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -460,28 +365,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0EDF490B42EA27AC022FEC1E2A7B1C99 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF3C3ED5D6DCDB844711C02779588EC8 /* Dop_Device_Checker.m in Sources */,
-				481831694478D02422462325633DE820 /* DopBase64.m in Sources */,
-				B6650BF364A23BC3AD90BA74C987735B /* DopCheckUDID.m in Sources */,
-				10831C2683B48EE0AF554D3D27B0CD64 /* DopGlobalDefinition.m in Sources */,
-				E60EBDC98D369CDCF4AC4100037D5665 /* DopoolReachability.m in Sources */,
-				CFD2838807D6B62CD967648985CAA306 /* DopoolTrackSDK-dummy.m in Sources */,
-				14F53E8C3348AA642A7309748D8A2A83 /* DopTrack.m in Sources */,
-				F19F7765562AD3CFA5B8E1518F16DC47 /* DopTrackLib.m in Sources */,
-				391693CA75B2597167C8FF0807601102 /* DopUDID.m in Sources */,
-				CF1485657614D7AD6B182D6FB8C9A966 /* NSData+DopGZipAdditions.m in Sources */,
-				3B319CE3F387E03AB437F9BF720A2473 /* NSDate+DopBJZone.m in Sources */,
-				FF7606A1F0DE599FB5D1419A3B225E61 /* NSString+DopEncoding.m in Sources */,
-				91DB4BF84FD9B0C1804CEA98B6071036 /* NSString+DopMD5Addition.m in Sources */,
-				C47BE174086064684CD249A6C58D4F43 /* NSString+DopNull.m in Sources */,
-				09E8DF752EA009C7902D5EB01E2B97D3 /* UIDevice+DopIdentifierAddition.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		39A6095E5BC77E539EE750A1A77D046D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -495,6 +378,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A8188142091E8B13DF3B75C8CF4C02E /* Pods-DopoolTrackSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18DC6001D6CD2340694BA4D4DDDDA15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11352B9B4361462319FB246622AFE7C /* DopoolTrackSDK-dummy.m in Sources */,
+				645AF90CCF130252604A300D37571959 /* libTarck_SDK.a in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +408,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		05F1FBA26B724803D74BA1788E868292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE51619093A58C919781BCC572768F1 /* DopoolTrackSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DopoolTrackSDK/DopoolTrackSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DopoolTrackSDK/DopoolTrackSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DopoolTrackSDK/DopoolTrackSDK.modulemap";
+				PRODUCT_MODULE_NAME = DopoolTrackSDK;
+				PRODUCT_NAME = DopoolTrackSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		2E8134A1106A864CF98594320DAE52AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D10078800E58BBDCC0E307F1FDA39512 /* Pods-DopoolTrackSDK_Example.release.xcconfig */;
@@ -549,37 +473,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		3ADB251B446E81CE52FAB4A53D118F65 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DFE3B34E62E69740C1BFFC5E433F2D9 /* DopoolTrackSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DopoolTrackSDK/DopoolTrackSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DopoolTrackSDK/DopoolTrackSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DopoolTrackSDK/DopoolTrackSDK.modulemap";
-				PRODUCT_MODULE_NAME = DopoolTrackSDK;
-				PRODUCT_NAME = DopoolTrackSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -738,38 +631,6 @@
 			};
 			name = Debug;
 		};
-		936698D5661B64CEA86D5D54FE61971F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DFE3B34E62E69740C1BFFC5E433F2D9 /* DopoolTrackSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DopoolTrackSDK/DopoolTrackSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DopoolTrackSDK/DopoolTrackSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DopoolTrackSDK/DopoolTrackSDK.modulemap";
-				PRODUCT_MODULE_NAME = DopoolTrackSDK;
-				PRODUCT_NAME = DopoolTrackSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		BB9AE3090C6D665187B837BE4FD3FAC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8F5D37E028ADDB64E68A5E55E84676E0 /* Pods-DopoolTrackSDK_Tests.release.xcconfig */;
@@ -837,18 +698,40 @@
 			};
 			name = Debug;
 		};
+		F0831F30F08D21BCEC0431DFE6578F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE51619093A58C919781BCC572768F1 /* DopoolTrackSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DopoolTrackSDK/DopoolTrackSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DopoolTrackSDK/DopoolTrackSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DopoolTrackSDK/DopoolTrackSDK.modulemap";
+				PRODUCT_MODULE_NAME = DopoolTrackSDK;
+				PRODUCT_NAME = DopoolTrackSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		057836BEF7D4D936773AD60AA7A684EE /* Build configuration list for PBXNativeTarget "DopoolTrackSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3ADB251B446E81CE52FAB4A53D118F65 /* Debug */,
-				936698D5661B64CEA86D5D54FE61971F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4598019C37E5A77AB9A75769B6C9CA43 /* Build configuration list for PBXNativeTarget "Pods-DopoolTrackSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -863,6 +746,15 @@
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		720A8ABC17B769787DC44788ED3C403B /* Build configuration list for PBXNativeTarget "DopoolTrackSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0831F30F08D21BCEC0431DFE6578F74 /* Debug */,
+				05F1FBA26B724803D74BA1788E868292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

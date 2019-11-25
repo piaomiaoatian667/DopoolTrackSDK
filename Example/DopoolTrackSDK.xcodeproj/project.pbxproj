@@ -62,6 +62,7 @@
 		6AA7C71A107A16F28317CD3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		958DB961238BC5E000FC0E6D /* DopoolTrackSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DopoolTrackSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B80285E14F31EA438C45D9F1 /* Pods-DopoolTrackSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DopoolTrackSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-DopoolTrackSDK_Example/Pods-DopoolTrackSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C16947C097CC5E70B9DC03D4 /* Pods_DopoolTrackSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DopoolTrackSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAB136FF055AB115F0CB76D /* Pods-DopoolTrackSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DopoolTrackSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DopoolTrackSDK_Tests/Pods-DopoolTrackSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +131,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				958DB961238BC5E000FC0E6D /* DopoolTrackSDK.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
