@@ -1,5 +1,5 @@
 PODS:
-  - DopoolTrackSDK (1.0.10)
+  - DopoolTrackSDK (1.0.11)
 
 DEPENDENCIES:
   - DopoolTrackSDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DopoolTrackSDK: 2fa9f15461a3ba06fb4df38558a18eb5b1622ff3
+  DopoolTrackSDK: c9725a59db66a1a2738941177d6d5d5110707bab
 
 PODFILE CHECKSUM: 14f0b62252367d5ceca7981154220c1f944f2f44
 
