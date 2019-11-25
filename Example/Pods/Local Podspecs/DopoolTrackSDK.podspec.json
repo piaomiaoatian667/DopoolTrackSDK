@@ -1,8 +1,8 @@
 {
   "name": "DopoolTrackSDK",
-  "version": "0.1.0",
-  "summary": "A short description of DopoolTrackSDK.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.7",
+  "summary": "DopoolTrackSDK",
+  "description": "DopoolTrackSDK for CBC_HOT CBC_ZC",
   "homepage": "https://github.com/piaomiaoatian667/DopoolTrackSDK",
   "license": {
     "type": "MIT",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/piaomiaoatian667/DopoolTrackSDK.git",
-    "tag": "0.1.0"
+    "tag": "1.0.7"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
-  "source_files": "DopoolTrackSDK/Classes/**/*"
+  "source_files": "DopoolTrackSDK/Classes/**/*",
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "libraries": "c++",
+  "public_header_files": "Pod/Classes/DopTrack.h"
 }
