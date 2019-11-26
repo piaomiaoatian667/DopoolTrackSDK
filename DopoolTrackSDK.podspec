@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DopoolTrackSDK'
-  s.version          = '1.0.12'
+  s.version          = '1.0.13'
   s.summary          = 'DopoolTrackSDK'
 
 # This description is used to generate tags and improve search results.
@@ -34,6 +34,8 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
   s.library = 'c++'
   s.public_header_files = 'Pod/Classes/DopTrack.h'
+  s.public_header_files = 'Pod/Classes/DopTrackConst.h'
+  s.public_header_files = 'Pod/Classes/libTarck_SDK.a'
 
   # s.resource_bundles = {
   #   'DopoolTrackSDK' => ['DopoolTrackSDK/Assets/*.png']
